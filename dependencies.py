@@ -3,8 +3,8 @@
 import os
 import time
 
-os.system("apt update")
-os.system("apt install python")
+os.system("sudo apt update")
+os.system("sudo apt install python")
 os.system("pip install json")
 os.system("pip install requests")
 os.system("pip install threading")
